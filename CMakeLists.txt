@@ -8,8 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(
   INCLUDE_DIRS src
-  CATKIN_DEPENDS roscpp geometry_msgs 
-  DEPENDS system_lib map
+  CATKIN_DEPENDS roscpp geometry_msgs
 )
 
 include_directories(${catkin_INCLUDE_DIRS})
