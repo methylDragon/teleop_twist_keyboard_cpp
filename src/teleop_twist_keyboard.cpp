@@ -121,7 +121,7 @@ int main(int argc, char** argv)
   geometry_msgs::Twist twist;
 
   printf("%s", msg);
-  printf("\rCurrent: speed %f\tturn %f | Last command: %c\r", speed, turn, key);
+  printf("\rCurrent: speed %f\tturn %f | Awaiting command...\r", speed, turn);
 
   while(true){
 
